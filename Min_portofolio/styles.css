@@ -1,0 +1,108 @@
+body {
+    background: #080808;
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #fff;
+}
+
+.navbar {
+    width: 90%;
+    margin: 40px auto 0 auto;
+    background: #222;
+    border-radius: 12px;
+    padding: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 0;
+    padding: 24px 0;
+}
+
+.navbar a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+.navbar a:hover {
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 64px;           /* større mellemrum mellem tekst og billede */
+    width: 100vw;
+    max-width: none;
+    min-height: 70vh;
+}
+
+.intro {
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+    letter-spacing: 1px;
+}
+
+.description {
+    color: #bdbdbd;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    font-size: 1.3rem;
+    padding: 22px 60px;
+    margin-bottom: 40px;
+    background: #44c01a;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 0 18px 2px #44c01a55;
+    border: none;
+    display: inline-block;
+    transition: background 0.2s;
+}
+.cta-btn:hover {
+    background: #369c14;
+}
+
+.worked-with {
+    margin-top: 24px;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    gap: 24px;
+    margin-top: 12px;
+}
+
+.icons img {
+    width: 60px;
+    height: auto;
+}
+
+.profilbillede {
+    width: 520px;
+    height: 520px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 50% 40%, #fff 80%, #eaeaea 100%);
+    background-image: url('Tobias.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 32px 0 #00000055;
+}
